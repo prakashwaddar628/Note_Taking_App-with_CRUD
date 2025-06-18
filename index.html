@@ -7,7 +7,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container"></div>
+    <div class="container">
+        <h1>Note Taking App</h1>
+        <form id="noteForm">
+            <input type="text" id="noteInput" placeholder="Enter your note here..." required>
+            <button type="submit">Add Note</button>
+        </form>
+        <ul id="noteList"></ul>
+        <button id="clearNotes">Clear All Notes</button>
+        <button id="saveNotes">Save Notes</button>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
